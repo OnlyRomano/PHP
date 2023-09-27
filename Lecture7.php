@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+$msg = "fries". $side1;
+        if(isset($_POST['fries'])){
+            $sidedishprice =  20;
+        }
+
+        if(isset($_POST['salad'])){
+            $sidedishprice =   35;
+        }
+
+        if(isset($_POST['drink'])){
+            $sidedishprice = 15;
+        }<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
