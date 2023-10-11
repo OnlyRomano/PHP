@@ -134,6 +134,8 @@
             $area = ($sideB * $height) / 2;
         
             echo "<br>Area = ", $area;
+            echo "<br>Height = ", $sideB;
+            echo "<br>Side B = ", $sideB;
         }
     }
     
@@ -150,6 +152,9 @@
             $Perimeter = $sideA + $sideB + $sideC; 
         
             echo "<br>Perimeter = " , $Perimeter;
+            echo "<br>Side A = ", $sideA;
+            echo "<br>Side B = ", $sideB;
+            echo "<br>Side C = ", $sideC;
         }
     }
 ?>
