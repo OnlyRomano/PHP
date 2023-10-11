@@ -11,11 +11,11 @@
     </style>
 </head>
 <body>
-<h1>
-            <font color = "red">
-                <?php echo "Program 9 <br>"?>
-            </font>
-        </h1>
+    <h1>
+        <font color = "red">
+            <?php echo "Program 9 <br>"?>
+        </font>
+    </h1>
         <h3>
             <center>
                 <font color = "blue"> 
@@ -23,7 +23,7 @@
                 </font>
             </center>
         </h3>
-</h1>
+    </h1>
     <form action="" method="GET">
         Input Number: <Input type="text" name = "txtfno"> <br>
         Input Number: <Input type="text" name = "txtsno"> <br>
@@ -89,7 +89,7 @@
             echo "First number: " , $fno , "<br>Second number:" , $sno , "<br>Sum: " , $result;
         }
     }
-    if(isset($_GET['btnmultiply'])){
+    if(isset($_GET['btnMultiply'])){
         $errorCount += validateNum1();
         $errorCount += validateNum2();
         if($errorCount == 0){
